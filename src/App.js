@@ -1,9 +1,12 @@
-
+import { Route, Switch } from 'react-router-dom';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div>
-      Welcome to Sleep Tracker
+      <Switch>
+        <Route path="/" component={Landing} />
+      </Switch>
     </div>
   );
 }
