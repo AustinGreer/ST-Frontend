@@ -1,0 +1,43 @@
+.landing-screen {
+    background-color: #121212;
+    color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+}
+
+.intro-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+
+    .intro-text { 
+        width: 40%;
+
+        h1 {
+            font-size: 5rem;
+            line-height: 1.2;
+            margin-bottom: 4%;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.2;
+            margin-bottom: 8%;
+        }
+
+        a {
+            text-decoration: none;
+            color: #F2F2F2;
+            font-size: 1.8rem;
+            background-color: #39869D;
+            border-radius: 20px;
+            padding: 2%;
+        }
+    }
+
+
+    img {
+        width: 32%;
+        border-radius: 12px;
+    }
+}
