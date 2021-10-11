@@ -10,6 +10,8 @@
 
     .intro-text { 
         width: 40%;
+        display: flex;
+        flex-direction: column;
 
         h1 {
             font-size: 5rem;
@@ -20,7 +22,7 @@
         p {
             font-size: 1.8rem;
             line-height: 1.2;
-            margin-bottom: 8%;
+            margin-bottom: 10%;
         }
 
         a {
@@ -28,15 +30,16 @@
             color: rgba(255, 255, 255, 0.87);
             font-size: 1.8rem;
             background-color: #39869D;
-            border-radius: 20px;
-            padding: 2%;
+            border-radius: 100px;
+            width: 50%;
+            text-align: center;
+            padding: 12px;
 
             &:hover {
                 opacity: 0.9;
             }
         }
     }
-
 
     img {
         width: 32%;
