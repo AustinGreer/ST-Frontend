@@ -9,20 +9,18 @@ function Login() {
     return (
         <div className="login-wrapper">
             <div className="container">
-                <h1>Welcome Back</h1>
-                <p>With the help of Sleep Tracker, you can discover your ideal sleep schedule today!</p>
+                <h1>Welcome Back!</h1>
+                <p>With the help of Sleep Tracker, you can discover your ideal sleep schedule today.</p>
 
                 <form>
                     <Input
                         type="text"
-                        className="login-input"
                         name="username"
                         placeholder="username"
                         disableUnderline={true}
                     />
                     <Input
                         type="password"
-                        className="login-input"
                         name="password"
                         placeholder="password"
                         disableUnderline={true}
